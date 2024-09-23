@@ -1,3 +1,13 @@
+h3 {
+    font-family: 'Times New Roman'
+    color;#002383;
+}
+
 * {
-    color:cadetblue;
+    background-color: hsl(0, 100%, 72%)
+}
+
+p {
+    border: 13px double blue;
+    color:aquamarine
 }
