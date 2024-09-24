@@ -1,6 +1,6 @@
 h3 {
-    font-family: 'Times New Roman'
-    color;#002383;
+    font-family: 'Times New Roman';
+    color:#002383;
 }
 
 * {
@@ -10,4 +10,19 @@ h3 {
 p {
     border: 13px double blue;
     color:aquamarine
+}
+
+.alert {
+    color: #54493f;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+#para-2 {
+    color: lightcyan;
+        border: solid 6px red;
+}
+#para-3 {
+    color: black;
+        border: inset 6px green;
 }
