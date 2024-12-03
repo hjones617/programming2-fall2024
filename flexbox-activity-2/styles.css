@@ -6,6 +6,8 @@ body {
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .header {
@@ -20,7 +22,7 @@ body {
 }
 
 .profile-image {
-  background: rebeccapurple;
+  background: #2800ff;
   box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.5);
   border-radius: 50%;
   width: 48px;
@@ -28,7 +30,7 @@ body {
 }
 
 .logo {
-  color: rebeccapurple;
+  color: #2800ff;
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
@@ -37,7 +39,7 @@ body {
 button {
   border: none;
   border-radius: 8px;
-  background: rebeccapurple;
+  background: #2800ff;
   color: white;
   padding: 8px 24px;
 }
@@ -45,7 +47,7 @@ button {
 a {
   /* this removes the line under our links */
   text-decoration: none;
-  color: rebeccapurple;
+  color: #2800ff;
 }
 
 ul {
@@ -65,14 +67,72 @@ ul {
 .content {
   display: flex;
   flex-direction: row;
+  height: calc(100vh - 87px);
 }
 
 .gallery {
   display: flex;
   flex-direction: row;
+  flex: 3 1 400px;
+  gap: 20px;
+  overflow-y: scroll;
+
 }
 
 .description {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  flex: 1 1 400px;
+  padding: 20px;
+  border: 2px solid grey;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+}
+  
+#profilepic {
+  width: 100%;
+  flex-grow: 3;
+}
+#more-info {
+  background-color: lightgray;
+  border-radius: 15px;
+  height: 200px;
+  width: 100%;
+
+}
+.label {
+  
+}
+
+#bigdiv {
+  display: flex;
+  flex-direction: row;
+  
+
+}
+
+#ranks {
+  border: double 10px;
 }
